@@ -55,7 +55,7 @@ if process_url_clicked:
     placeholder.text("Getting answer using sources...")
     result = chain({"question": query}, return_only_outputs=True)
     end = time.perf_counter()
-    placeholder.text(f"Time to retrieve answer: {end-start} seconds.")
+    placeholder.text(f"Time to retrieve answer: {round(end-start,2 )} seconds.")
 
     # Answers formatting
     st.subheader("Answer")
