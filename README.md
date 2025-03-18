@@ -1,6 +1,6 @@
 # News Research Tool
 
-This program takes in URLs from the user and uses them to answer any questions regarding the contents of the URLs.
+This tool is designed to streamline fact-finding and research by extracting relevant information from multiple news sources. Users provide a set of URLs along with a specific question, and the program analyzes the content to generate an answer based on the provided sources. By leveraging natural language processing (NLP) and information retrieval techniques, the tool ensures that responses are grounded in credible references. It is ideal for journalists, researchers, and analysts who need quick, source-backed insights without manually sifting through multiple articles.
 
 ## Cloning the Repository
 
